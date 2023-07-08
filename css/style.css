@@ -1,4 +1,4 @@
-/* RESET */
+/***********RESET***************/
 
 *{
     margin: 0;
@@ -18,7 +18,7 @@ body{
                          'rodape';
 }
 
-/* HEADER */
+/*************HEADER*************/
 
 .cabecalho{
     grid-area: cabecalho;
@@ -109,7 +109,7 @@ body{
     margin-right: 50px;
 }
 
-/* MAIN */
+/************MAIN*************/
 
 .conteudo{
     grid-area: principal;
@@ -164,7 +164,7 @@ body{
     color: #fff;
 }
 
-/* FOOTER */
+/************FOOTER**************/
 
 .rodape{
     grid-area: rodape;
@@ -193,8 +193,10 @@ body{
     flex-direction: column;
 }
 
-/* RESPONSIVO */
-/* tablet */
+/************RESPONSIVO*************/
+
+     /*********TABLET*******/
+
 @media screen and (max-width:1200px){
     .cabecalho2{
         display: grid;
@@ -239,7 +241,7 @@ body{
 
 }
 
-/* smartphone */
+/************SMARTPHONE*************/
 
 @media screen and (max-width: 750px) {
 
@@ -288,4 +290,5 @@ body{
     .rodape-dados{
         flex-direction: column;
     }
+
 }
